@@ -1,46 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+}
+
 header {
-	background-image: url('../img/parallax-1.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1366px 700px;
-	height:550px;
+		background-image: url('../img/parallax-1.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 1366px 700px;
+		height:550px;
+
+	.main-nav {
+		background-color: #000000;
+		height:540px;
+		opacity:0.5;
+	}
+
+	.menu {
+		list-style: none;
+		text-transform: uppercase;
+		font-size: 26px;
+	}
+
+	.menu__link{
+		text-decoration:none;
+	}
+
+	.logo {
+		margin-left: 5%;
+		margin-top:3%;
+		width:100px;
+		height:70px;
+		position: absolute;
+	}
+	.logo1{
+		margin-left:26%;
+		margin-top: 1%;
+		width:600px;
+		height:350px;
+	}
+	.scroll {
+		width:40px;
+		height:40px;
+		margin-left:5%;
+	}
+	.arrow {
+		margin-left: 40%;
+	}
 }
-.logo {
-	margin-left: 5%;
-	margin-top:3%;
-	width:100px;
-	height:70px;
-}
-.logo1{
-	margin-left:26%;
-	margin-top: 1%;
-	width:600px;
-	height:350px;
-}
-.scroll {
-	width:40px;
-	height:40px;
-	margin-left:5%;
-}
-.arrow {
-	margin-left: 40%;
-}
+
 .video {
 	padding: 0px;
 }
+
+
 .cup {
-	background-image: url('../img/parallax-3.jpg');
-	background-size: 1366px 700px;
-	height:550px;
-	
+		background-image: url('../img/parallax-3.jpg');
+		background-size: 1366px 700px;
+		height:550px;
+		color:white;
+
+	h1 {
+		color:white;
+		margin-left:20%;
+		text-transform: uppercase;
+		font-size:50px;
+		p{
+			margin-left:20%;
+		}
+	}
 }
+
 .tea {
 	background-image: url('../img/min-video-1-2.jpg');
 	background-repeat: no-repeat;
 	height:600px;
 }
+
 .country {
 	background-image: url('../img/parallax-4.jpg');
 	background-repeat: no-repeat;
-	height:600px;
+	height:650px;
+}
+
+footer {
+	background-color: $black;
+	p {
+		color: white;
+		margin-top:3%;
+	}
 }

@@ -1,0 +1,46 @@
+header {
+  background-image: url("../img/parallax-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1366px 700px;
+  height: 550px; }
+
+.logo {
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 100px;
+  height: 70px; }
+
+.logo1 {
+  margin-left: 26%;
+  margin-top: 1%;
+  width: 600px;
+  height: 350px; }
+
+.scroll {
+  width: 40px;
+  height: 40px;
+  margin-left: 5%; }
+
+.arrow {
+  margin-left: 40%; }
+
+.video {
+  padding: 0px; }
+
+.cup {
+  background-image: url("../img/parallax-3.jpg");
+  background-size: 1366px 700px;
+  height: 550px; }
+
+.tea {
+  background-image: url("../img/min-video-1-2.jpg");
+  background-repeat: no-repeat;
+  height: 600px; }
+
+.country {
+  background-image: url("../img/parallax-4.jpg");
+  background-repeat: no-repeat;
+  height: 600px; }
+
+/*# sourceMappingURL=base.css.map */
