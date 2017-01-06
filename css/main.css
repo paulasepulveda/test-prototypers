@@ -5862,6 +5862,9 @@ header {
     .cup h1 p {
       margin-left: 20%; }
 
+#tipos h3 {
+  color: #A93030; }
+
 .tea {
   background-image: url("../img/min-video-1-2.jpg");
   background-repeat: no-repeat;
