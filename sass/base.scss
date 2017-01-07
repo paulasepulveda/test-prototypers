@@ -1,33 +1,14 @@
-* {
-	box-sizing: border-box;
-}
 
 body {
 	margin:0;
 }
-
+//header y menú despleglable//
 header {
 		background-image: url('../img/parallax-1.jpg');
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 1366px 700px;
 		height:550px;
-
-	.main-nav {
-		background-color: #000000;
-		height:540px;
-		opacity:0.5;
-	}
-
-	.menu {
-		list-style: none;
-		text-transform: uppercase;
-		font-size: 26px;
-	}
-
-	.menu__link{
-		text-decoration:none;
-	}
 
 	.logo {
 		margin-left: 5%;
@@ -51,40 +32,78 @@ header {
 		margin-left: 40%;
 	}
 }
-
+// section Video//
 .video {
-	padding: 0px;
+	padding: $padding;
 }
-
-
+//section presentación//
 .cup {
 		background-image: url('../img/parallax-3.jpg');
 		background-size: 1366px 700px;
 		height:550px;
 		color:white;
-
-	h1 {
-		color:white;
-		margin-left:20%;
-		text-transform: uppercase;
-		font-size:50px;
-		
-		p{
-			margin-left:20%;
+	
+	.bebida {
+		margin-left:25%;
+		width:400px;
+	
+		h1 {
+			width: 200px;
+			color:white;
+			text-transform: uppercase;
+			font-size:50px;
 		}
 	}
 }
-
+//section tipos de té//
 #tipos {
-	h3{
-		color:$red;
+			height: 200px;
+			margin-left:5%;
+			margin-top: 3%;
+
+		.teas{
+				margin-rigth: 8%;
+
+			h3{
+				color:$red;
+				text-align:center;
+				font-size:30px;
+			
+				.description{
+									text-align:center;
+			}
+		}
 	}
 }
+//section fotos//
 .tea {
-	background-image: url('../img/min-video-1-2.jpg');
-	background-repeat: no-repeat;
-	height:600px;
+		background-image: url('../img/min-video-1-2.jpg');
+		background-repeat: no-repeat;
+		background-size: 660px 640px;;
+		height:600px;
+		padding:$padding;
 }
+
+.photo{
+		padding:$padding;
+
+		.photo1{
+					width:345px;
+					padding:$padding;
+	}
+}
+//preguntas sobre el té//
+.preguntas {
+	background-image: url('../img/parallax-2.jpg');
+	height: 670px;
+
+	.preg {
+		text-transform: uppercase;
+		text-align:center;
+	}	
+}
+
+
 
 .country {
 	background-image: url('../img/parallax-4.jpg');

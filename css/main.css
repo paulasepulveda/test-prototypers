@@ -5806,9 +5806,6 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-* {
-  box-sizing: border-box; }
-
 body {
   margin: 0; }
 
@@ -5818,16 +5815,6 @@ header {
   background-position: center;
   background-size: 1366px 700px;
   height: 550px; }
-  header .main-nav {
-    background-color: #000000;
-    height: 540px;
-    opacity: 0.5; }
-  header .menu {
-    list-style: none;
-    text-transform: uppercase;
-    font-size: 26px; }
-  header .menu__link {
-    text-decoration: none; }
   header .logo {
     margin-left: 5%;
     margin-top: 3%;
@@ -5854,21 +5841,47 @@ header {
   background-size: 1366px 700px;
   height: 550px;
   color: white; }
-  .cup h1 {
-    color: white;
-    margin-left: 20%;
-    text-transform: uppercase;
-    font-size: 50px; }
-    .cup h1 p {
-      margin-left: 20%; }
+  .cup .bebida {
+    margin-left: 25%;
+    width: 400px; }
+    .cup .bebida h1 {
+      width: 200px;
+      color: white;
+      text-transform: uppercase;
+      font-size: 50px; }
 
-#tipos h3 {
-  color: #A93030; }
+#tipos {
+  height: 200px;
+  margin-left: 5%;
+  margin-top: 3%; }
+  #tipos .teas {
+    margin-rigth: 8%; }
+    #tipos .teas h3 {
+      color: #A93030;
+      text-align: center;
+      font-size: 30px; }
+      #tipos .teas h3 .description {
+        text-align: center; }
 
 .tea {
   background-image: url("../img/min-video-1-2.jpg");
   background-repeat: no-repeat;
-  height: 600px; }
+  background-size: 660px 640px;
+  height: 600px;
+  padding: 0px; }
+
+.photo {
+  padding: 0px; }
+  .photo .photo1 {
+    width: 345px;
+    padding: 0px; }
+
+.preguntas {
+  background-image: url("../img/parallax-2.jpg");
+  height: 670px; }
+  .preguntas .preg {
+    text-transform: uppercase;
+    text-align: center; }
 
 .country {
   background-image: url("../img/parallax-4.jpg");
